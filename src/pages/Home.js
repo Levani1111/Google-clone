@@ -9,13 +9,13 @@ function Home() {
 
       <div className="home__header">
         <div className="home__headerLeft">
-          <Link to="/about">about</Link>
-          {/* Link */}
+          <Link to="/about">About</Link>
+          <Link to="/store">Store</Link>
         </div>
 
         <div className="home__headerRight">
-          {/* Link */}
-          {/* Link */}
+          <Link to="/gmail">Gmail</Link>
+          <Link to="/images">Images</Link>
           {/* Icon */}
           {/* Avatar */}
         </div>
