@@ -1,5 +1,6 @@
 import React from "react";
 import "./Home.css";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -8,7 +9,7 @@ function Home() {
 
       <div className="home__header">
         <div className="home__headerLeft">
-          {/* Link */}
+          <Link to="/about">about</Link>
           {/* Link */}
         </div>
 
