@@ -2,10 +2,10 @@
 
 ## Tech
 
-- ReactJs
+- ReactJS
 - React Router
 - Context API (redux)
-- Material Ui
+- Material UI
 - Flexbox
 - Google Custom Search API
 - Firebase to setup the app to connect to Google
