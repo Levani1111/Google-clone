@@ -4,6 +4,7 @@
 /node_modules
 /.pnp
 .pnp.js
+!keys.js
 
 
 
@@ -12,7 +13,7 @@
 
 # production
 /build
-!keys.js
+
 
 
 # misc
