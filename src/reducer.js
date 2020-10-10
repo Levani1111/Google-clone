@@ -1,5 +1,5 @@
 export const initialState = {
-  user: null,
+  term: null,
 };
 
 export const actionTypes = {
@@ -12,7 +12,7 @@ const reducer = (state, action) => {
     case actionTypes.SET_SEARCH_TERM:
       return {
         ...state,
-        user: action.user,
+        term: action.term,
       };
     default:
       return state;
