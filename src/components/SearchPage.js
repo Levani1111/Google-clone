@@ -89,7 +89,7 @@ function SearchPage() {
               <a className="searchPage__resultTitle" href={item.link}>
                 <h2>{item.title}</h2>
               </a>
-              <p lassName="searchPage__resultSnippet">{item.snippet}</p>
+              <p className="searchPage__resultSnippet">{item.snippet}</p>
             </div>
           ))}
         </div>
