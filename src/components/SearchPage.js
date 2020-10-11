@@ -1,9 +1,14 @@
 import React from "react";
 import "./SearchPage.css";
 import { useStateValue } from "../StateProvider";
+import useGoogleSearch from "../useGoogleSearch";
 
 function SearchPage() {
+  // eslint-disable-next-line no-unused-vars
   const [{ term }, dispatch] = useStateValue();
+  const { data } = useGoogleSearch(term);
+
+  console.log(data);
 
   return (
     <div className="searchPage">
