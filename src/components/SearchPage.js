@@ -5,6 +5,7 @@ import { useStateValue } from "../StateProvider";
 import useGoogleSearch from "../useGoogleSearch";
 import Response from "../response";
 import { Link } from "react-router-dom";
+import Search from "../Components/Search";
 
 function SearchPage() {
   // eslint-disable-next-line no-unused-vars
@@ -25,6 +26,9 @@ function SearchPage() {
             alt=""
           />
         </Link>
+        <div className="searchPage__headerBody">
+          <Search hideButtons />
+        </div>
       </div>
       <div className="searchPage__results">{/* results */}</div>
     </div>
