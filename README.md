@@ -9,7 +9,7 @@
 - Flexbox
 - Google Custom Search API
 - Firebase to setup the app to connect to Google
-- Firebase hosting to deploy the app
+- netlify hosting to deploy the app
 
 #### deployed
 
