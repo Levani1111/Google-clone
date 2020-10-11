@@ -19,8 +19,10 @@ function SearchPage() {
   // eslint-disable-next-line no-unused-vars
   const [{ term }, dispatch] = useStateValue();
   //   LIVE API CALL
-  //   const { data } = useGoogleSearch(term);
-  const data = Response;
+  const { data } = useGoogleSearch(term);
+
+  //   Mack API CALL
+  //   const data = Response;
 
   console.log(data);
 
@@ -76,7 +78,7 @@ function SearchPage() {
           </div>
         </div>
       </div>
-      {true && (
+      {term && (
         <div className="searchPage__results">
           <p className="searchPage__resultCount">
             About {data?.searchInformation.formattedTotalResults} results (
